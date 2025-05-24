@@ -1,0 +1,25 @@
+{
+    "name": "gfmois/pickles-framework",
+    "description": "Pickles Framework Project",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Moisés",
+            "email": "daw.moisesguerola@gmail.com"
+        }
+    ],
+    "require": {
+        "gfmois/pickles-core": "^0.1.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "phpdocumentor/shim": false
+        }
+    }
+}
