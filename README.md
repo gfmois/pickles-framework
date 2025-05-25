@@ -16,6 +16,12 @@ Pickles is a PHP web application framework designed for rapid development, modul
 - MySQL (default, configurable but for now only MySQL and Postgres can be used)
 
 ## Installation
+### Using composer
+```powershell
+   composer create-project gfmois/pickles-framework <name:optional>
+```
+
+### Using git
 1. Clone the repository:
    ```powershell
    git clone <your-repo-url> pickles
